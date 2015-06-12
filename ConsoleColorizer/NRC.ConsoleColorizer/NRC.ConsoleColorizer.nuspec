@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>ConsoleColorizer</id>
+        <version>0.1</version>
+        <title>Easy Console Colorizer</title>
+        <authors>Elan Hasson</authors>
+        <licenseUrl>https://github.com/ElanHasson/ConsoleColorizer/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/ElanHasson/ConsoleColorizer</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>An easy way to colorize your System.Console output.</description>
+        <copyright>Elan Hasson</copyright>
+        <language>en-US</language>
+        <tags>Console, Colors, System.Console.</tags>
+    </metadata>
+    <files>
+        <file src="bin\Debug\LinFu.Core.dll" target="bin\Debug\LinFu.Core.dll" />
+        <file src="bin\Debug\LinFu.Core.xml" target="bin\Debug\LinFu.Core.xml" />
+        <file src="bin\Debug\NRC.ConsoleColorizer.dll" target="bin\Debug\NRC.ConsoleColorizer.dll" />
+        <file src="bin\Debug\NRC.ConsoleColorizer.dll.config" target="bin\Debug\NRC.ConsoleColorizer.dll.config" />
+        <file src="bin\Debug\NRC.ConsoleColorizer.pdb" target="bin\Debug\NRC.ConsoleColorizer.pdb" />
+        <file src="bin\Debug\NRC.ConsoleColorizer.vshost.exe" target="bin\Debug\NRC.ConsoleColorizer.vshost.exe" />
+        <file src="bin\Debug\NRC.ConsoleColorizer.vshost.exe.config" target="bin\Debug\NRC.ConsoleColorizer.vshost.exe.config" />
+        <file src="bin\Debug\NRC.ConsoleColorizer.vshost.exe.manifest" target="bin\Debug\NRC.ConsoleColorizer.vshost.exe.manifest" />
+        <file src="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" target="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+        <file src="obj\Debug\NRC.ConsoleColorizer.csproj.FileListAbsolute.txt" target="obj\Debug\NRC.ConsoleColorizer.csproj.FileListAbsolute.txt" />
+        <file src="obj\Debug\NRC.ConsoleColorizer.csprojResolveAssemblyReference.cache" target="obj\Debug\NRC.ConsoleColorizer.csprojResolveAssemblyReference.cache" />
+        <file src="obj\Debug\NRC.ConsoleColorizer.dll" target="obj\Debug\NRC.ConsoleColorizer.dll" />
+        <file src="obj\Debug\NRC.ConsoleColorizer.pdb" target="obj\Debug\NRC.ConsoleColorizer.pdb" />
+        <file src="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" target="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+        <file src="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" target="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+        <file src="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" target="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+        <file src="Properties\AssemblyInfo.cs" target="Properties\AssemblyInfo.cs" />
+        <file src="App.config" target="App.config" />
+        <file src="ConsoleColorArgument.cs" target="ConsoleColorArgument.cs" />
+        <file src="ConsoleColorizer.cs" target="ConsoleColorizer.cs" />
+        <file src="NRC.ConsoleColorizer.csproj" target="NRC.ConsoleColorizer.csproj" />
+        <file src="NRC.ConsoleColorizer.pfx" target="NRC.ConsoleColorizer.pfx" />
+    </files>
+</package>

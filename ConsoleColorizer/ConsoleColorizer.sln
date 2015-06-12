@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B656662E-F81A-4822-877E-615AF61302FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{E5F65CEF-9CB6-477D-83D1-34EA3DBAB78C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{1518079D-3621-42C9-BBD3-395C84D7781B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRC.ConsoleColorizer", "NRC.ConsoleColorizer\NRC.ConsoleColorizer.csproj", "{4B396B1F-9CE1-4B7B-BE2F-657074645C64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1518079D-3621-42C9-BBD3-395C84D7781B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1518079D-3621-42C9-BBD3-395C84D7781B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1518079D-3621-42C9-BBD3-395C84D7781B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1518079D-3621-42C9-BBD3-395C84D7781B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1518079D-3621-42C9-BBD3-395C84D7781B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B396B1F-9CE1-4B7B-BE2F-657074645C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B396B1F-9CE1-4B7B-BE2F-657074645C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B396B1F-9CE1-4B7B-BE2F-657074645C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B396B1F-9CE1-4B7B-BE2F-657074645C64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1518079D-3621-42C9-BBD3-395C84D7781B} = {E5F65CEF-9CB6-477D-83D1-34EA3DBAB78C}
+		{4B396B1F-9CE1-4B7B-BE2F-657074645C64} = {B656662E-F81A-4822-877E-615AF61302FB}
+	EndGlobalSection
+EndGlobal
