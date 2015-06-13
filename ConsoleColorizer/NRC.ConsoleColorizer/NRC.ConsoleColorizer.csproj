@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ColoredConsole.cs" />
+    <Compile Include="ColoredWrapper.cs" />
     <Compile Include="ConsoleColorArgument.cs" />
     <Compile Include="DynamicConsoleColorizer.cs" />
     <Compile Include="ConsoleHelper.cs" />

@@ -6,6 +6,7 @@ namespace NRC.ConsoleColorizer
 {
     internal class ConsoleHelper
     {
+  
         private readonly ConsoleColor _priorBackgroundColor;
         private readonly ConsoleColor _priorForegroundColor;
 
