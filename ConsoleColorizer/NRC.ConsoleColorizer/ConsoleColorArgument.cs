@@ -16,7 +16,6 @@ namespace NRC.ConsoleColorizer
             }
         }
 
-      
         public ConsoleColor ForegroundColor { get; set; }
         public ConsoleColor BackgroundColor { get; set; }
     }
