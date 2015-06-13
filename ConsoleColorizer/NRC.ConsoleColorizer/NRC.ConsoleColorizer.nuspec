@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<package >
+<package>
   <metadata>
     <id>$id$</id>
     <version>$version$</version>
@@ -8,7 +8,7 @@
     <owners>$author$</owners>
     <licenseUrl>https://github.com/ElanHasson/ConsoleColorizer/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/ElanHasson/ConsoleColorizer</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/NullReferenceCorp/ConsoleColorizer/master/ConsoleColorizer/NRC.ConsoleColorizer/favicon.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>Initial Release.</releaseNotes>

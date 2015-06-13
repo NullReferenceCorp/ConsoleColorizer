@@ -37,10 +37,11 @@
     <StartupObject />
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>NRC.ConsoleColorizer.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -60,7 +61,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="NRC.ConsoleColorizer.nuspec" />
-    <None Include="NRC.ConsoleColorizer.pfx" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="favicon.ico" />
