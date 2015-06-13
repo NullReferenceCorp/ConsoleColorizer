@@ -22,7 +22,6 @@ namespace NRC.ConsoleColorizer
                     args.FirstOrDefault(c => c.GetType() == typeof (ConsoleColorArgument)) as ConsoleColorArgument;
 
 
-
                 _consoleHelper.SetandPreserveConsoleColors(colorArgs);
 
 
@@ -32,7 +31,8 @@ namespace NRC.ConsoleColorizer
                     argList.Remove(colorArgs);
                     args = argList.ToArray();
                 }
-                typeof (Console).GetMethod(binder.Name, args.Select(c => c.GetType()).ToArray())
+                typeof (Console)
+                    .GetMethod(binder.Name, args.Select(c => c.GetType()).ToArray())
                     .Invoke(null, args);
                 result = false;
 
