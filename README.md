@@ -12,3 +12,5 @@ Available on [NuGet](https://www.nuget.org/packages/NRC.ConsoleColorizer/):
 PM> Install-Package NRC.ConsoleColorizer
 ```
 
+See documentation at the [Documentation Page](https://github.com/NullReferenceCorp/ConsoleColorizer/wiki/Documentation).
+
