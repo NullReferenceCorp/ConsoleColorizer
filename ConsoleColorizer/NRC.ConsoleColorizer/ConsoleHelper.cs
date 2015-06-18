@@ -4,9 +4,12 @@ using System.Reflection;
 
 namespace NRC.ConsoleColorizer
 {
+    /// <summary>
+    ///     This class is used to swap out and preserve the existing <see cref="Console.ForegroundColor" /> and
+    ///     <see cref="Console.BackgroundColor" /> of the console.
+    /// </summary>
     internal class ConsoleHelper
     {
-  
         private readonly ConsoleColor _priorBackgroundColor;
         private readonly ConsoleColor _priorForegroundColor;
 

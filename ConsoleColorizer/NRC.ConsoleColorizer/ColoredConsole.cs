@@ -2,6 +2,14 @@ using System;
 
 namespace NRC.ConsoleColorizer
 {
+    /// <summary>
+    /// A drop-in static replacement for <see cref="System.Console"/>'s write methods.
+    /// </summary>
+    /// <example>
+    /// <para>You can use via <code>ColoredConsole.Write()</code></para>
+    /// or
+    /// <para><example><code>using Console=NRC.ConsoleColorizer.ColoredConsole;</code></example></para>
+    /// </example>
     public static class ColoredConsole
     {
         public static void WriteLine(bool value, ConsoleColor? foregroundColor = null,
